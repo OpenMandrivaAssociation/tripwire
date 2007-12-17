@@ -27,7 +27,6 @@ Requires:	sed grep >= 2.3 gzip tar gawk
 BuildRequires:	libstdc++-devel
 BuildRequires:	openssl-devel
 BuildRequires:	gcc-c++
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Tripwire is a very valuable security tool for Linux systems, if it is
