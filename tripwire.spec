@@ -4,7 +4,7 @@
 Summary:	A system integrity assessment tool
 Name:		tripwire
 Version:	2.4.1.2
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL
 Group:		Monitoring
 URL:		http://www.tripwire.org/
@@ -65,7 +65,7 @@ database.
 %build
 %{__chmod} 755 configure
 # RPM_OPT_FLAGS break the code (deadlock).
-export CXXFLAGS="-O -Wall -pipe -g"
+export CXXFLAGS="-O -Wall -pipe -g -Wformat -Werror=format-security"
 ./configure -q \
 	path_to_vi=%{path_to_vi} \
 	path_to_sendmail=%{path_to_sendmail} \
