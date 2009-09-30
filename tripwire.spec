@@ -65,7 +65,7 @@ database.
 %build
 %{__chmod} 755 configure
 # RPM_OPT_FLAGS break the code (deadlock).
-export CXXFLAGS="-O -Wall -pipe -g -Wformat -Werror=format-security"
+export CXXFLAGS="-O0 -Wall -pipe -g -Wformat -Werror=format-security"
 ./configure -q \
 	path_to_vi=%{path_to_vi} \
 	path_to_sendmail=%{path_to_sendmail} \
