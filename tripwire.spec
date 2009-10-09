@@ -4,7 +4,7 @@
 Summary:	A system integrity assessment tool
 Name:		tripwire
 Version:	2.4.1.2
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	GPLv2+
 Group:		Monitoring
 URL:		http://www.tripwire.org/
@@ -18,10 +18,9 @@ Source6:	twpol.txt.in
 Source7:	README.RPM
 Source8:	config.guess
 Source9:	tripwire-setup-keyfiles.in
-Patch0:		tripwire-2.4.0.1-gcc4.diff
-Patch1:		tripwire-2.4.0.1-install_fix.diff
+#Patch0:		tripwire-2.4.0.1-gcc4.diff
+#Patch1:		tripwire-2.4.0.1-install_fix.diff
 Patch2:		tripwire-siggen-man8.patch
-
 
 Requires:	sed grep >= 2.3 gzip tar gawk
 BuildRequires:	libstdc++-devel
@@ -72,7 +71,7 @@ export CXXFLAGS="-O0 -Wall -pipe -g -Wformat -Werror=format-security"
 	--prefix=/ \
 	--sysconfdir=%{_sysconfdir}/tripwire \
 	--sbindir=%{_sbindir} \
-	--libdir=%{_var}/lib \
+--libdir=%{_var}/lib \
 	--mandir=%{_mandir}
 
 %make 
