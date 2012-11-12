@@ -1,0 +1,11 @@
+sources:
+  "config.guess:"	1e7f8050b383d4e526b91d6f7dd1cb36ec120694
+  "README.RPM:"	0b89fec3394ce94ab43a1e83991b9a41dafc3624
+  "tripwire-2.4.2-src.tar.bz2:"	70f141a0b3481869395ed706e112227ea5a93b79
+  "tripwire.cron.in:"	c63bd3949b6ac18f755d423121b83b9b8cdbbb3e
+  "tripwire.gif:"	8c804dfee7c0a0083812eeb24208a948a4b9bcbc
+  "tripwire-setup-keyfiles.in:"	c6fdcea3e29ade778ac1bd9217723c49029dd89d
+  "tripwire.txt:"	48d227040c4df38039f7a0f5794daa76ae90c94a
+  "twcfg.txt.in:"	c18a8ae5ae3844870a3e232d6fe69a79c5f091f8
+  "twinstall.sh.in:"	9259219c7ec396483bc33d0483481e5fa41633f7
+  "twpol.txt.in:"	ac13ef7002450325f69095038964b0b63f1aa4ed
