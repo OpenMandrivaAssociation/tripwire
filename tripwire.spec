@@ -7,7 +7,7 @@ Version:	2.4.2
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Monitoring
-URL:		http://www.tripwire.org/
+URL:		https://www.tripwire.org/
 Source0:	http://download.sourceforge.net/tripwire/tripwire-%{version}-src.tar.bz2
 Source1:	tripwire.cron.in
 Source2:	tripwire.txt
