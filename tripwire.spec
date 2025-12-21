@@ -23,6 +23,11 @@ Source9:	tripwire-setup-keyfiles.in
 Patch2:		tripwire-siggen-man8.patch
 
 Requires:	sed grep >= 2.3 gzip tar gawk
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libstdc++-devel
 BuildRequires:	openssl-devel
 BuildRequires:	gcc-c++
