@@ -4,7 +4,7 @@
 Summary:	A system integrity assessment tool
 Name:		tripwire
 Version:	2.4.2
-Release:	%mkrel 1
+Release:	2
 License:	GPLv2+
 Group:		Monitoring
 URL:		https://www.tripwire.org/
